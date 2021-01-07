@@ -4,6 +4,5 @@
     <input #searchTerm (keyup)="search(searchTerm.value)" />
     <button (click)="search(searchTerm.value)">Search</button>
 </div>
-<!--
-    TODO: fix^ tried satellitesList.search(searchTerm.value) and current 
--->
+
+<app-orbit-count [satellites]="displayList"></app-orbit-count>
